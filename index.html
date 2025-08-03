@@ -18,7 +18,7 @@
         };
         map = new google.maps.Map(document.getElementById("gmap"), gmap_options);
 
-        map.data.loadGeoJson("./N02-24_RailroadSection.geojson");
+        map.data.loadGeoJson("./trip.geojson");
         // スタイルの設定
         map.data.setStyle(function(feature) {
           return ({
